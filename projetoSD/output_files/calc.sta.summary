@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'state.numero1Input'
+Slack : -17.532
+TNS   : -217.282
+
+Type  : Slow 1200mV 85C Model Setup 'tecla_0'
+Slack : -15.477
+TNS   : -157.855
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -1.639
+TNS   : -1.639
+
+Type  : Slow 1200mV 85C Model Hold 'tecla_0'
+Slack : -0.312
+TNS   : -1.044
+
+Type  : Slow 1200mV 85C Model Hold 'state.numero1Input'
+Slack : -0.238
+TNS   : -1.177
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -9.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tecla_0'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'state.numero1Input'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'state.numero1Input'
+Slack : -15.900
+TNS   : -198.043
+
+Type  : Slow 1200mV 0C Model Setup 'tecla_0'
+Slack : -13.898
+TNS   : -142.469
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.592
+TNS   : -1.592
+
+Type  : Slow 1200mV 0C Model Hold 'tecla_0'
+Slack : -0.261
+TNS   : -0.573
+
+Type  : Slow 1200mV 0C Model Hold 'state.numero1Input'
+Slack : -0.235
+TNS   : -1.082
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -9.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tecla_0'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'state.numero1Input'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'state.numero1Input'
+Slack : -8.121
+TNS   : -103.050
+
+Type  : Fast 1200mV 0C Model Setup 'tecla_0'
+Slack : -7.153
+TNS   : -71.932
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tecla_0'
+Slack : -0.392
+TNS   : -1.853
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'state.numero1Input'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -8.420
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tecla_0'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'state.numero1Input'
+Slack : 0.372
+TNS   : 0.000
+
+------------------------------------------------------------

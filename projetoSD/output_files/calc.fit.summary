@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Apr 11 14:26:18 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : calc
+Top-level Entity Name : ProjetoSD
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 291 / 114,480 ( < 1 % )
+    Total combinational functions : 290 / 114,480 ( < 1 % )
+    Dedicated logic registers : 5 / 114,480 ( < 1 % )
+Total registers : 5
+Total pins : 32 / 529 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 1 / 532 ( < 1 % )
+Total PLLs : 0 / 4 ( 0 % )

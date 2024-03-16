@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "resultado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[8]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[9]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[10]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[11]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[12]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sinal",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_4",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_5",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_2",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_3",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_6",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_7",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_0",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_1",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_8",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_9",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_B",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_A",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_Ast",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_Hash",
+					"strict" : false
+				},
+				{
+					"name" : "tecla_C",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

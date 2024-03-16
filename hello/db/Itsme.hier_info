@@ -1,0 +1,262 @@
+|somador_overflow
+final0 <= complemento_2_original:inst.comple0
+A[0] => LogicaSinal:inst1.a0
+A[0] => prior_comp:N9UNVEUINVURNV.A[0]
+A[1] => LogicaSinal:inst1.a1
+A[1] => prior_comp:N9UNVEUINVURNV.A[1]
+A[2] => LogicaSinal:inst1.a2
+A[2] => prior_comp:N9UNVEUINVURNV.A[2]
+A[3] => LogicaSinal:inst1.a3
+A[3] => prior_comp:N9UNVEUINVURNV.A[3]
+A[4] => LogicaSinal:inst1.sa
+A[4] => prior_comp:N9UNVEUINVURNV.A[4]
+B[0] => LogicaSinal:inst1.b0
+B[0] => prior_comp:N9UNVEUINVURNV.B[0]
+B[1] => LogicaSinal:inst1.b1
+B[1] => prior_comp:N9UNVEUINVURNV.B[1]
+B[2] => LogicaSinal:inst1.b2
+B[2] => prior_comp:N9UNVEUINVURNV.B[2]
+B[3] => LogicaSinal:inst1.b3
+B[3] => prior_comp:N9UNVEUINVURNV.B[3]
+B[4] => LogicaSinal:inst1.sb
+B[4] => prior_comp:N9UNVEUINVURNV.B[4]
+S0 => inst3.IN0
+S1 => inst4.IN0
+S2 => inst5.IN0
+final1 <= complemento_2_original:inst.comple1
+final2 <= complemento_2_original:inst.comple2
+final3 <= complemento_2_original:inst.comple3
+final4 <= complemento_2_original:inst.comple4
+final5 <= LogicaSinal:inst1.saida
+
+
+|somador_overflow|complemento_2_original:inst
+comple0 <= inst70.DB_MAX_OUTPUT_PORT_TYPE
+X_signal => inst70.IN0
+X_signal => inst1.IN1
+X_signal => inst6.IN0
+X_signal => inst.IN1
+X_signal => inst2.IN1
+X_signal => inst3.IN1
+X_signal => inst4.IN1
+X_signal => inst5.IN1
+X0 => inst1.IN0
+comple1 <= inst71.DB_MAX_OUTPUT_PORT_TYPE
+X1 => inst.IN0
+comple2 <= inst72.DB_MAX_OUTPUT_PORT_TYPE
+X2 => inst2.IN0
+comple3 <= inst73.DB_MAX_OUTPUT_PORT_TYPE
+X3 => inst3.IN0
+comple4 <= inst74.DB_MAX_OUTPUT_PORT_TYPE
+X4 => inst4.IN0
+comple5 <= inst75.DB_MAX_OUTPUT_PORT_TYPE
+X5 => inst5.IN0
+
+
+|somador_overflow|LogicaSinal:inst1
+saida <= jkjk.DB_MAX_OUTPUT_PORT_TYPE
+a3 => comp_5bits:inst.A3
+b3 => comp_5bits:inst.B3
+a2 => comp_5bits:inst.A2
+b2 => comp_5bits:inst.B2
+a1 => comp_5bits:inst.A1
+b1 => comp_5bits:inst.B1
+a0 => comp_5bits:inst.A0
+b0 => comp_5bits:inst.B0
+sb => fgfg.IN1
+sa => sdsd.IN1
+
+
+|somador_overflow|LogicaSinal:inst1|comp_5bits:inst
+AeqB <= comp_magnitude_de_1bit:inst12.AeqB
+A0 => comp_magnitude_de_1bit:inst12.A
+B0 => comp_magnitude_de_1bit:inst12.B
+A1 => comp_magnitude_de_1bit:inst11.A
+B1 => comp_magnitude_de_1bit:inst11.B
+A2 => comp_magnitude_de_1bit:inst10.A
+B2 => comp_magnitude_de_1bit:inst10.B
+A3 => comp_magnitude_de_1bit:inst5.A
+B3 => comp_magnitude_de_1bit:inst5.B
+AltB <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+AgtB <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|LogicaSinal:inst1|comp_5bits:inst|comp_magnitude_de_1bit:inst12
+AeqB <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+A => inst5.IN0
+B => inst.IN1
+B => inst4.IN0
+B => inst3.IN1
+aux => inst1.IN1
+aux => inst2.IN2
+aux => inst3.IN2
+AgtB <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AltB <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|LogicaSinal:inst1|comp_5bits:inst|comp_magnitude_de_1bit:inst11
+AeqB <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+A => inst5.IN0
+B => inst.IN1
+B => inst4.IN0
+B => inst3.IN1
+aux => inst1.IN1
+aux => inst2.IN2
+aux => inst3.IN2
+AgtB <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AltB <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|LogicaSinal:inst1|comp_5bits:inst|comp_magnitude_de_1bit:inst10
+AeqB <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+A => inst5.IN0
+B => inst.IN1
+B => inst4.IN0
+B => inst3.IN1
+aux => inst1.IN1
+aux => inst2.IN2
+aux => inst3.IN2
+AgtB <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AltB <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|LogicaSinal:inst1|comp_5bits:inst|comp_magnitude_de_1bit:inst5
+AeqB <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+A => inst5.IN0
+B => inst.IN1
+B => inst4.IN0
+B => inst3.IN1
+aux => inst1.IN1
+aux => inst2.IN2
+aux => inst3.IN2
+AgtB <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+AltB <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|Somador:inst2
+cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN0
+A => ihdhiahsdau.IN0
+B => inst4.IN1
+B => inst.IN1
+B => ihdhiahsdau.IN1
+cin => inst5.IN1
+cin => ksakjcj.IN1
+sum <= ksakjcj.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|prior_comp:N9UNVEUINVURNV
+A_CORRETO[0] <= complemento_2:inst1.comple0
+A_CORRETO[1] <= complemento_2:inst1.comple1
+A_CORRETO[2] <= complemento_2:inst1.comple2
+A_CORRETO[3] <= complemento_2:inst1.comple3
+A_CORRETO[4] <= complemento_2:inst1.comple4
+A[0] => complemento_2:inst1.X0
+A[1] => complemento_2:inst1.X1
+A[2] => complemento_2:inst1.X2
+A[3] => complemento_2:inst1.X3
+A[4] => complemento_2:inst1.X_signal
+A[4] => complemento_2:inst1.X4
+B_CORRETO[0] <= complemento_2:inst2.comple0
+B_CORRETO[1] <= complemento_2:inst2.comple1
+B_CORRETO[2] <= complemento_2:inst2.comple2
+B_CORRETO[3] <= complemento_2:inst2.comple3
+B_CORRETO[4] <= complemento_2:inst2.comple4
+B[0] => complemento_2:inst2.X0
+B[1] => complemento_2:inst2.X1
+B[2] => complemento_2:inst2.X2
+B[3] => complemento_2:inst2.X3
+B[4] => complemento_2:inst2.X_signal
+B[4] => complemento_2:inst2.X4
+
+
+|somador_overflow|prior_comp:N9UNVEUINVURNV|complemento_2:inst1
+comple0 <= inst70.DB_MAX_OUTPUT_PORT_TYPE
+X_signal => inst70.IN0
+X_signal => inst1.IN1
+X_signal => inst6.IN0
+X_signal => inst.IN1
+X_signal => inst2.IN1
+X_signal => inst3.IN1
+X_signal => inst7.IN0
+X_signal => inst4.IN1
+X0 => inst1.IN0
+comple1 <= inst71.DB_MAX_OUTPUT_PORT_TYPE
+X1 => inst.IN0
+comple2 <= inst72.DB_MAX_OUTPUT_PORT_TYPE
+X2 => inst2.IN0
+comple3 <= inst73.DB_MAX_OUTPUT_PORT_TYPE
+X3 => inst3.IN0
+comple4 <= inst74.DB_MAX_OUTPUT_PORT_TYPE
+X4 => inst7.IN1
+
+
+|somador_overflow|prior_comp:N9UNVEUINVURNV|complemento_2:inst2
+comple0 <= inst70.DB_MAX_OUTPUT_PORT_TYPE
+X_signal => inst70.IN0
+X_signal => inst1.IN1
+X_signal => inst6.IN0
+X_signal => inst.IN1
+X_signal => inst2.IN1
+X_signal => inst3.IN1
+X_signal => inst7.IN0
+X_signal => inst4.IN1
+X0 => inst1.IN0
+comple1 <= inst71.DB_MAX_OUTPUT_PORT_TYPE
+X1 => inst.IN0
+comple2 <= inst72.DB_MAX_OUTPUT_PORT_TYPE
+X2 => inst2.IN0
+comple3 <= inst73.DB_MAX_OUTPUT_PORT_TYPE
+X3 => inst3.IN0
+comple4 <= inst74.DB_MAX_OUTPUT_PORT_TYPE
+X4 => inst7.IN1
+
+
+|somador_overflow|Somador:GK58UGDT6F72589O
+cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN0
+A => ihdhiahsdau.IN0
+B => inst4.IN1
+B => inst.IN1
+B => ihdhiahsdau.IN1
+cin => inst5.IN1
+cin => ksakjcj.IN1
+sum <= ksakjcj.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|Somador:0YU7YR677HGIO
+cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN0
+A => ihdhiahsdau.IN0
+B => inst4.IN1
+B => inst.IN1
+B => ihdhiahsdau.IN1
+cin => inst5.IN1
+cin => ksakjcj.IN1
+sum <= ksakjcj.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_overflow|Somador:insG0IT9GN8UB7859Kt3
+cout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst.IN0
+A => ihdhiahsdau.IN0
+B => inst4.IN1
+B => inst.IN1
+B => ihdhiahsdau.IN1
+cin => inst5.IN1
+cin => ksakjcj.IN1
+sum <= ksakjcj.DB_MAX_OUTPUT_PORT_TYPE
+
+

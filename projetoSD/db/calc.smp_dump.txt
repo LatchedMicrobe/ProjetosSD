@@ -1,0 +1,8 @@
+
+State Machine - |ProjetoSD|state
+Name state.subOutput state.somaOutput state.numero2Input state.numero1Input state.multOutput 
+state.numero1Input 0 0 0 0 0 
+state.numero2Input 0 0 1 1 0 
+state.somaOutput 0 1 0 1 0 
+state.subOutput 1 0 0 1 0 
+state.multOutput 0 0 0 1 1 
